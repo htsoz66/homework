@@ -1,0 +1,130 @@
+.menu{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.slider {
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    padding-bottom: 42px;
+	border: 1px solid #EAEAEA;
+        &__img{
+            padding-top: 11px;
+        }
+		&-btn {
+        height: 40px;
+        width: 40px;
+		background: rgba(42, 42, 42, 0.15);
+		border: 1px solid #000;
+		position: absolute;
+			&:hover {
+                background: #F16D7F;
+			}
+			&:active {
+				background-color: rgb(126, 121, 121);
+			}
+			&-left {
+				left: 5px;
+			}
+			&-right {
+				right: 5px;
+			}
+	}
+}
+.fas{
+    font-size: 25px;
+}
+.container__catalog {
+    max-width: 1140px;
+	margin: 0 auto;
+	border: 1px solid rgb(56, 51, 51);
+	text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+	margin-bottom: 130px;
+}
+.description {
+	background: #FFFFFF;
+	margin-top: -50px;
+	position: relative;
+	border: 1px solid #EAEAEA;
+	&__h2{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #F16D7F;
+	padding-bottom: 12px;
+	}
+	&__h3{
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #4D4D4D;
+	padding-bottom: 49px;
+	}
+	&__p{
+	padding-bottom: 33px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #5E5E5E;
+	max-width: 500px;
+	margin: 0 auto;
+	}
+	&__strong{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	color: #EF5B70;
+	}
+	&__hrsmall{
+		margin: 0 auto;
+		width: 50px;
+		height: 5px;
+		background-color: #EF5B70;
+		border: none;
+		margin-bottom: 12px;
+	}
+	&__hr{
+		width: 550px;
+		margin: 0 auto;
+		margin-top: 65px;
+		margin-bottom: 65px;
+		}
+	&__filter{
+		padding-bottom: 50px;
+		display: flex;
+		justify-content: center;
+	}
+	&__details{
+	padding-left: 23px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #6F6E6E;
+	}
+	&__a{
+	padding: 15px 56px 15px 23px;
+	border: 1px solid #FF6A6A;
+	font-size: 16px;
+	line-height: 19px;
+	color: #F26376;
+	}
+	&__span{
+	}
+}
+.fa-chevron-down{
+	font-size: 12px;
+}
+.fa-cart-plus{
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 18px;
+}
+.footer_product{
+margin-top: 130px;
+}
+
+
+

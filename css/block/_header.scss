@@ -1,0 +1,19 @@
+
+.header{
+    background-color: #222222;
+    &__wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+    &__logo:not(:last-child){
+    margin-right: 33px;
+}
+        &__left{
+    padding: 18px 0 18px 0;
+}
+    &__right{
+    padding: 18px 0 18px 0;
+}
+}
